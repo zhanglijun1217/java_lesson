@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>阶段1-面向对象设计</module>
+        <module>阶段2-JAVA集合框架</module>
     </modules>
 
     <properties>
