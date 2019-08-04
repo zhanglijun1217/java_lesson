@@ -19,6 +19,8 @@ public class GenericParamterTypeDemo {
         // 因为有单界限的 所以会编译限制
         // Container<Integer> a; // 编译不通过
 
+        List<String> list = new ArrayList<String>();
+
         /**
          * 演示泛型一个 会造成写法上的瑕疵
          */
