@@ -8,7 +8,11 @@
     <artifactId>study-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <parent>
+        <groupId>com.zlj</groupId>
+        <artifactId>java_lesson</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <build>
         <plugins>
             <plugin>
