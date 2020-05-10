@@ -3,6 +3,8 @@ package jvm.类加载;
 /**
  * Created by zlj on 2020/4/13.
  * 只有类被主动使用时 才能初始化这个类
+ *
+ * 可以使用 -XX:+TraceClassLoading启动参数 来查看类加载情况
  */
 public class TestClassLoading {
 
@@ -14,7 +16,7 @@ public class TestClassLoading {
         System.out.println("===========================");
 
         // 会初始化Parent 也会初始化Children。因为访问了str2，要初始化Children，又因为子类被初始化，所以父类也被主动使用，进行初始化
-        System.out.println(Children.str2);
+//        System.out.println(Children.str2);
     }
 
     static class Parent {
