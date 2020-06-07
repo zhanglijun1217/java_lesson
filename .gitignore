@@ -39,6 +39,7 @@ buildNumber.properties
 .idea
 *.iws
 *.iml
+*.hprof
 *.ipr
 
 ### NetBeans
